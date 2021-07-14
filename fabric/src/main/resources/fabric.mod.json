@@ -1,29 +1,29 @@
 {
     "schemaVersion": 1,
-    "id": "examplemod",
+    "id": "pitch-dark",
     "version": "${version}",
-    "name": "Example Mod",
-    "description": "This is an example description! Tell everyone what your mod is about!",
+    "name": "Pitch Dark",
+    "description": "Only allow hostile mobs to spawn in complete darkness",
     "authors": [
-        "Dodo Gang"
+        "Trikzon"
     ],
     "contact": {
-        "homepage": "https://dodogang.net",
-        "issues": "https://github.com/dodogang/architectury-example-mod/issues",
-        "sources": "https://github.com/dodogang/architectury-example-mod"
+        "homepage": "https://curseforge.com/minecraft/mc-mods/pitch-dark",
+        "issues": "https://github.com/trikzon/pitch-dark/issues",
+        "sources": "https://github.com/trikzon/pitch-dark"
     },
-    "license": "Insert License Here",
-    "icon": "assets/examplemod/icon.png",
+    "license": "MIT; Assets licensed as All Rights Reserved",
+    "icon": "assets/pitch-dark/icon.png",
     "environment": "*",
     "entrypoints": {
-        "main": [
-            "net.dodogang.examplemod.fabric.ExampleModFabric"
-        ]
     },
+    "mixins": [
+        "pitch-dark.mixins.json"
+    ],
     "depends": {
         "fabricloader": ">=0.7.4",
         "fabric": "*",
-        "minecraft": ">=1.16.4"
+        "minecraft": ">=1.16.2"
     },
     "suggests": {
         "flamingo": "*"
@@ -32,7 +32,7 @@
         "modmenu": {
             "badges": [],
             "links": {
-                "examplemod.discord": "https://discord.gg/APPWa6s"
+                "pitch-dark.discord": "https://discord.gg/APPWa6s"
             }
         }
     }

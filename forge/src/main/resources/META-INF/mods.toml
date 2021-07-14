@@ -1,29 +1,29 @@
 modLoader = "javafml"
 loaderVersion = "[35,)"
-issueTrackerURL = "https://github.com/dodogang/architectury-example-mod/issues"
-license = "Insert License Here"
+issueTrackerURL = "https://github.com/trikzon/pitch-dark/issues"
+license = "MIT; Assets licensed as All Rights Reserved"
 
 [[mods]]
-modId = "examplemod"
+modId = "pitch-dark"
 version = "${version}"
-displayName = "Example Mod"
+displayName = "Pitch Dark"
 #updateJSONURL = ""
-displayURL = "https://github.com/dodogang/architectury-example-mod"
+displayURL = "https://github.com/trikzon/pitch-dark"
 #credits = ""
-authors = "Dodo Gang"
+authors = "Trikzon"
 description = '''
-This is an example description! Tell everyone what your mod is about!
+Only allow hostile mobs to spawn in complete darkness
 '''
 #logoFile = ""
 
-[[dependencies.examplemod]]
+[[dependencies.pitch-dark]]
 modId = "forge"
 mandatory = true
 versionRange = "[35,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.examplemod]]
+[[dependencies.pitch-dark]]
 modId = "minecraft"
 mandatory = true
 versionRange = "[1.16.2,)"
